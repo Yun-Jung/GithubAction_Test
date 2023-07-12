@@ -18,9 +18,8 @@ jobs:
           pwd
           echo "List Current Directory"
           echo "P"
-          ls /__w/_PipelineMapping/Yun-Jung
+          ls /__w/_PipelineMapping/Yun-Jung/GithubAction_Test
           echo "T"
-          cat 2214d849-0cca-4f6a-aa9f-de19a3967a8b.sh
           echo "ls /__w/_github_home"
           ls /__w/_github_home
           echo "ls /__w/_github_workflow"
