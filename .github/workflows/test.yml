@@ -17,10 +17,9 @@ jobs:
           echo "Current Directory"
           pwd
           echo "List Current Directory"
-          echo "P"
+          echo "cat /__w/_PipelineMapping/Yun-Jung/GithubAction_Test/PipelineFolder.json"
           cat /__w/_PipelineMapping/Yun-Jung/GithubAction_Test/PipelineFolder.json
           echo "T"
-          ls /__w/_github_home
           echo "ls /__w/_temp/_github_home"
           ls /__w/_temp/_github_home
           echo "ls /__w/_temp/_github_workflow"
