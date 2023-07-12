@@ -5,7 +5,7 @@ on:
 jobs:
   test-update-file:
     runs-on: ubuntu-latest
-    container: flareforecast/flare
+    container: flareforecast/send-email
     steps:
       - name: Checkout files
         uses: actions/checkout@v2
