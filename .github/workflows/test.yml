@@ -14,17 +14,17 @@ jobs:
           
       - name: ls
         run: |
-          echo "Current Directory"
+          echo "### Current Directory ###"
           pwd
-          echo "List Current Directory"
+          echo "### List Current Directory ###"
           ls
-          echo "cat /__w/_PipelineMapping/Yun-Jung/GithubAction_Test/PipelineFolder.json"
+          echo "### cat /__w/_PipelineMapping/Yun-Jung/GithubAction_Test/PipelineFolder.json ###"
           cat /__w/_PipelineMapping/Yun-Jung/GithubAction_Test/PipelineFolder.json
-          echo "Directory"
+          echo "### Directory ###"
           ls /
-          echo "ls /__e"
+          echo "### ls /__e ###"
           ls /__e
-          echo "ls /__t"
+          echo "### ls /__t ###"
           ls /__t
       
       #- name: Login to Docker Hub
