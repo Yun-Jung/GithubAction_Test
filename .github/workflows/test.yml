@@ -15,7 +15,7 @@ jobs:
       - name: ls
         run: |
           pwd
-          cd /home/
+          cd /root/
           ls
       
       #- name: Login to Docker Hub
