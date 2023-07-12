@@ -17,7 +17,12 @@ jobs:
           echo "Current Directory"
           pwd
           echo "List Current Directory"
-          ls /__w/
+          echo "P"
+          ls /__w/_PipelineMapping
+          echo "A"
+          ls /__w/_actions
+          echo "T"
+          ls /__w/_temp
           echo "Directory"
           ls /
           echo "ls /__e"
