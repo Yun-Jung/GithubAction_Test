@@ -18,11 +18,15 @@ jobs:
           pwd
           echo "List Current Directory"
           echo "P"
-          ls /__w/_PipelineMapping
-          echo "A"
-          ls /__w/_actions
+          ls /__w/_PipelineMapping/Yun-Jung
           echo "T"
-          ls /__w/_temp
+          cat 2214d849-0cca-4f6a-aa9f-de19a3967a8b.sh
+          echo "ls /__w/_github_home"
+          ls /__w/_github_home
+          echo "ls /__w/_github_workflow"
+          ls /__w/_github_workflow
+          echo "ls /__w/_runner_file_commands"
+          ls /__w/_runner_file_commands
           echo "Directory"
           ls /
           echo "ls /__e"
