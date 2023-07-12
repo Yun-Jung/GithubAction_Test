@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     container: flareforecast/send-email
     steps:
-      - name: Checkout files
-        uses: actions/checkout@v2
-        with:
-          fetch-depth: 0
+      #- name: Checkout files
+      #  uses: actions/checkout@v2
+      #  with:
+      #    fetch-depth: 0
           
       - name: ls
         run: ls
