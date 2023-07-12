@@ -7,10 +7,10 @@ jobs:
     runs-on: ubuntu-latest
     container: flareforecast/send-email
     steps:
-      #- name: Checkout files
-      #  uses: actions/checkout@v2
-      #  with:
-      #    fetch-depth: 0
+      - name: Checkout files
+        uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
           
       - name: ls
         run: |
@@ -20,9 +20,6 @@ jobs:
           ls
           echo "cat /__w/_PipelineMapping/Yun-Jung/GithubAction_Test/PipelineFolder.json"
           cat /__w/_PipelineMapping/Yun-Jung/GithubAction_Test/PipelineFolder.json
-          echo "T"
-          echo "cat /__w/_temp/_github_workflow/event.json"
-          cat /__w/_temp/_github_workflow/event.json
           echo "Directory"
           ls /
           echo "ls /__e"
