@@ -16,6 +16,8 @@ jobs:
         run: |
           echo "Current Directory"
           pwd
+          echo " list Current Directory"
+          ls
           echo "Directory"
           ls /
           echo "ls /__e"
